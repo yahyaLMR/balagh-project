@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+:root {
+	color-scheme: light dark;
+}
+
+@layer base {
+	button, a, [role="button"] {
+		cursor: pointer;
+	}
+	body {
+		@apply min-h-screen bg-slate-950 text-slate-100;
+		background-image: radial-gradient(circle at top, rgba(59,130,246,0.35), transparent 45%),
+											radial-gradient(circle at 20% 20%, rgba(14,165,233,0.25), transparent 40%),
+											linear-gradient(180deg, #020617, #0f172a 60%, #020617 100%);
+	}
+}
+
+@layer components {
+	.btn-primary {
+		@apply inline-flex items-center justify-center rounded-2xl bg-gradient-to-r from-red-700 to-green-600 px-5 py-3 text-sm font-semibold text-white shadow-lg shadow-red-900/50 transition hover:-translate-y-0.5 hover:shadow-2xl;
+	}
+	.btn-secondary {
+		@apply inline-flex items-center justify-center rounded-2xl border border-red-500/40 bg-transparent px-5 py-3 text-sm font-semibold text-white transition hover:bg-red-500/10;
+	}
+	.btn-danger {
+		@apply inline-flex items-center justify-center rounded-2xl bg-red-600 px-5 py-3 text-sm font-semibold text-white shadow-lg shadow-red-900/60 transition hover:bg-red-700;
+	}
+	.input {
+		@apply w-full rounded-2xl border border-red-500/30 bg-white/5 px-4 py-3 text-sm text-white placeholder:text-white/70 backdrop-blur focus:border-green-400 focus:ring-1 focus:ring-green-400;
+	}
+	.modern-select {
+		@apply rounded-full border border-white/30 bg-red-800/70 px-3 py-1 text-xs font-semibold uppercase tracking-wide text-white outline-none focus:border-green-400 focus:ring-2 focus:ring-green-400;
+	}
+	.glass-panel {
+		@apply w-full rounded-3xl border border-red-600/40 bg-gradient-to-br from-red-900/60 via-slate-950/60 to-green-900/40 p-6 shadow-2xl shadow-black/40 backdrop-blur;
+	}
+	.feature-card {
+		@apply rounded-2xl border border-red-600/40 bg-gradient-to-br from-red-900/20 to-green-900/20 p-6 text-left transition hover:-translate-y-1 hover:border-green-400 hover:bg-white/10;
+	}
+	.info-pill {
+		@apply inline-flex items-center gap-2 rounded-full border border-red-500/50 bg-red-500/10 px-4 py-1 text-xs font-semibold uppercase tracking-widest text-red-100;
+	}
+	.badge { @apply inline-flex items-center gap-2 rounded-full px-3 py-1 text-xs font-semibold uppercase tracking-[0.3em] text-white/90 shadow-sm; }
+	.badge-open { @apply bg-emerald-600/80 text-white; }
+	.badge-in-progress { @apply bg-amber-500/80 text-slate-950; }
+	.badge-closed { @apply bg-red-600/90 text-white; }
+	.modern-table th,
+	.modern-table td {
+		@apply border-b border-white/5;
+	}
+}

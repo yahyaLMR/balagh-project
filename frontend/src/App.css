@@ -1,0 +1,2 @@
+/* Tailwind handled in index.css; optional global overrides */
+html, body, #root { height: 100%; }

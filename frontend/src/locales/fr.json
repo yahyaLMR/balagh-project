@@ -1,0 +1,83 @@
+{
+  "navbar": {
+    "submit": "Soumettre",
+    "manage": "Gérer",
+    "admin": "Admin",
+    "logout": "Déconnexion"
+  },
+  "manageComplaints": {
+    "title": "Gérer les réclamations",
+    "total": "Total",
+    "searchPlaceholder": "Rechercher par titre ou description...",
+    "allStatuses": "Tous les statuts",
+    "open": "Ouvert",
+    "inProgress": "En cours",
+    "closed": "Fermé",
+    "table": {
+      "title": "Titre",
+      "images": "Images",
+      "description": "Description",
+      "status": "Statut",
+      "date": "Date",
+      "actions": "Actions"
+    },
+    "delete": "Supprimer",
+    "noComplaints": "Aucune réclamation trouvée.",
+    "deleteModal": {
+      "title": "Supprimer la réclamation",
+      "message": "Êtes-vous sûr de vouloir supprimer cette réclamation ? Cette action est irréversible."
+    }
+  },
+  "confirmationModal": {
+    "cancel": "Annuler",
+    "delete": "Supprimer"
+  },
+  "home": {
+    "welcome": "Bienvenue sur",
+    "description": "Une plateforme simple pour soumettre des réclamations et suivre leur résolution en toute transparence.",
+    "submitButton": "Soumettre une réclamation",
+    "adminLogin": "Connexion Admin",
+    "features": {
+      "fast": {
+        "title": "Rapide",
+        "description": "Créez des réclamations en quelques secondes avec un formulaire minimal."
+      },
+      "transparent": {
+        "title": "Transparent",
+        "description": "Les statuts permettent de voir les progrès en un coup d'œil."
+      },
+      "managed": {
+        "title": "Géré",
+        "description": "Le tableau de bord central de l'administrateur garde tout organisé."
+      }
+    }
+  },
+  "login": {
+    "title": "Connexion Admin",
+    "subtitle": "Entrez vos identifiants pour accéder au tableau de bord.",
+    "email": "Email",
+    "password": "Mot de passe",
+    "loginButton": "Se connecter",
+    "error": "Email ou mot de passe invalide"
+  },
+  "newComplaint": {
+    "title": "Soumettre une réclamation",
+    "subtitle": "Fournissez un titre clair, une description détaillée et une image.",
+    "description": "Ajoutez tout contexte qui aide l'équipe de support à saisir rapidement le problème.",
+    "form": {
+      "title": "Titre",
+      "titlePlaceholder": "Résumé court",
+      "description": "Description",
+      "descriptionPlaceholder": "Décrivez le problème en détail",
+      "images": "Images (1-3 Requises)",
+      "imagesHelp": "Vous pouvez sélectionner jusqu'à 3 images.",
+      "submitButton": "Soumettre la réclamation"
+    },
+    "messages": {
+      "maxImages": "Vous ne pouvez télécharger que jusqu'à 3 images.",
+      "minImages": "Veuillez sélectionner au moins une image.",
+      "success": "Réclamation soumise avec succès !",
+      "error": "Échec de la soumission de la réclamation."
+    }
+  }
+}

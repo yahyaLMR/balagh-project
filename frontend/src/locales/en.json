@@ -1,0 +1,83 @@
+{
+  "navbar": {
+    "submit": "Submit",
+    "manage": "Manage",
+    "admin": "Admin",
+    "logout": "Logout"
+  },
+  "manageComplaints": {
+    "title": "Manage Complaints",
+    "total": "Total",
+    "searchPlaceholder": "Search by title or description...",
+    "allStatuses": "All Statuses",
+    "open": "Open",
+    "inProgress": "In Progress",
+    "closed": "Closed",
+    "table": {
+      "title": "Title",
+      "images": "Images",
+      "description": "Description",
+      "status": "Status",
+      "date": "Date",
+      "actions": "Actions"
+    },
+    "delete": "Delete",
+    "noComplaints": "No complaints found.",
+    "deleteModal": {
+      "title": "Delete Complaint",
+      "message": "Are you sure you want to delete this complaint? This action cannot be undone."
+    }
+  },
+  "confirmationModal": {
+    "cancel": "Cancel",
+    "delete": "Delete"
+  },
+  "home": {
+    "welcome": "Welcome to",
+    "description": "A simple platform to submit complaints and track their resolution transparently.",
+    "submitButton": "Submit a Complaint",
+    "adminLogin": "Admin Login",
+    "features": {
+      "fast": {
+        "title": "Fast",
+        "description": "Create complaints in seconds with a minimal form."
+      },
+      "transparent": {
+        "title": "Transparent",
+        "description": "Statuses make it easy to see progress at a glance."
+      },
+      "managed": {
+        "title": "Managed",
+        "description": "Central admin dashboard keeps everything organized."
+      }
+    }
+  },
+  "login": {
+    "title": "Admin Login",
+    "subtitle": "Enter your credentials to access the dashboard.",
+    "email": "Email",
+    "password": "Password",
+    "loginButton": "Login",
+    "error": "Invalid email or password"
+  },
+  "newComplaint": {
+    "title": "Submit a Complaint",
+    "subtitle": "Provide a clear title, detailed description, and an image.",
+    "description": "Add any context that helps the support team understand the issue quickly.",
+    "form": {
+      "title": "Title",
+      "titlePlaceholder": "Short summary",
+      "description": "Description",
+      "descriptionPlaceholder": "Describe the issue in detail",
+      "images": "Images (1-3 Required)",
+      "imagesHelp": "You can select up to 3 images.",
+      "submitButton": "Submit Complaint"
+    },
+    "messages": {
+      "maxImages": "You can only upload up to 3 images.",
+      "minImages": "Please select at least one image.",
+      "success": "Complaint submitted successfully!",
+      "error": "Failed to submit complaint."
+    }
+  }
+}
